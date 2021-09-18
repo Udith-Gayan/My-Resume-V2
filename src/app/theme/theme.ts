@@ -35,27 +35,11 @@ export interface Theme {
       "--u-fivetary-color": "#ffc6f4",
       "--u-sixtary-color": "#4cc9f0ff",
 
-      
-
       // Navbar colors
       "--u-navbar-background": "var(--u-tertiary-color)",
       "--u-navbar-text": "#ffffff",
 
-      // background colors
-      "--u-background-color": "#e9e9e9",
-
-      // Background for card
-      "--u-card-background": "#ffffff",
-
-      // Text color
-      "--u-text-color" : "#1b0534d1",
-
-      // Text title colors
-      "--u-title-color": "#560badff",
-      "--u-subtitle-color": "#3c2b63",
-
-      // Ruler color
-      "--u-ruler-color": "rgba(176, 180, 182, 0.849)",
+      // Text colors
       
     }
   };
@@ -94,24 +78,10 @@ export interface Theme {
       "--u-sixtary-color": "#4cc9f0ff",
 
       // Navbar colors
-      "--u-navbar-background": "var(--u-secondary-color)",
-      "--u-navbar-text": "#d4f5ff",
-
-      // background colors
-      "--u-background-color": "var(--u-primary-color)",
+      "--u-navbar-background": "var(--u-primary-color)",
+      "--u-navbar-text": "var(--u-sixtary-color)",
 
       // Card background
-      "--u-card-background": "var(--u-secondary-color)",
-
-      // Text color
-      "--u-text-color" : "#d4f5ff",
-     
-      // Text title colors
-      "--u-title-color": "#4cc9f0ff",
-      "--u-subtitle-color": "#dbdbdb",
-
-      // Ruler color
-      "--u-ruler-color": "#4cc9f0ff",
-
+      "--u-card-background": "var(--u-secondary-color)"
     }
   };
