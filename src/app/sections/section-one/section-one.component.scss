@@ -1,0 +1,39 @@
+.custom-card-1 {
+    background-color: var(--u-card-background);
+}
+
+.card-img-overlay > .custom-card-title {
+    color: var(--u-primary-color);
+}
+
+li {
+    color: var(--u-text-color);
+    background-color: var(--u-card-background);
+}
+
+fa-icon {
+    color: var(--u-title-color);
+}
+
+hr {
+    color: var(--u-ruler-color);
+}
+
+.custom-title {
+    color: var(--u-title-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.u-text-color {
+    color: var(--u-text-color);
+}
+
+.custom-progress {
+    background-color: var(--u-title-color);
+    font-weight: 600;
+}
+
+.custom-subtitle {
+    color: var(--u-subtitle-color);
+}
