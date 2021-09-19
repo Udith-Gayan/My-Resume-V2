@@ -49,6 +49,7 @@ export interface Theme {
 
       // Text color
       "--u-text-color" : "#1b0534d1",
+      "--u-text-color-light": "rgba(87, 11, 173, 0.555)",
 
       // Text title colors
       "--u-title-color": "#560badff",
@@ -105,6 +106,7 @@ export interface Theme {
 
       // Text color
       "--u-text-color" : "#d4f5ff",
+      "--u-text-color-light": "rgba(76, 202, 240, 0.582)",
      
       // Text title colors
       "--u-title-color": "#4cc9f0ff",
