@@ -37,9 +37,15 @@ hr {
     color: var(--u-text-color-light);
 }
 
-.custom-progress {
+.custom-progress{
+    border-radius: 1rem;
+}
+
+.custom-progress-content {
     background-color: var(--u-title-color);
     font-weight: 600;
+    border-radius: 1rem;
+   
 }
 
 .custom-subtitle {
