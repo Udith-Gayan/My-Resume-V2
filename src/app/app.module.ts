@@ -7,13 +7,15 @@ import { ThemeSwitchComponent } from './component-items/theme-switch/theme-switc
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SectionOneComponent } from './sections/section-one/section-one.component';
 import { SectionTwoComponent } from './sections/section-two/section-two.component';
+import { SectionThreeComponent } from './sections/section-three/section-three.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ThemeSwitchComponent,
     SectionOneComponent,
-    SectionTwoComponent
+    SectionTwoComponent,
+    SectionThreeComponent
   ],
   imports: [
     BrowserModule,

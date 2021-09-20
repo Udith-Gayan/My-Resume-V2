@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faMapMarkerAlt, faMailBulk, faPhoneAlt, faBirthdayCake, faStar } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithub, faStackOverflow, faMedium} from '@fortawesome/free-brands-svg-icons';
+
 
 @Component({
   selector: 'section-one',
@@ -15,6 +17,11 @@ export class SectionOneComponent implements OnInit {
   faPhoneAlt =faPhoneAlt;
   faBirthdayCake = faBirthdayCake;
   faStar = faStar;
+
+  faLinkedin = faLinkedin;
+  faGithub = faGithub;
+  faStackOverflow = faStackOverflow;
+  faMedium = faMedium;
 
   ngOnInit(): void {
   }
