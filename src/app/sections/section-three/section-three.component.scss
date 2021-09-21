@@ -1,0 +1,21 @@
+.custom-certfi-icon {
+    width: 40px;
+    margin-bottom: 10px;
+    
+}
+
+.custom-certification-logo {
+    width: 90px;
+    height: auto;
+}
+
+.see-credentials {
+    color: var(--u-text-color);
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+        font-style: italic;
+        text-decoration: underline;
+    }
+}

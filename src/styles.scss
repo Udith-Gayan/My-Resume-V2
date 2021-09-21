@@ -12,6 +12,29 @@ $dodger-blue: #4895efff;
 $vivid-sky-blue: #4cc9f0ff;
 
 :root {
+
+  /* Colors */
+  --foreground-default: #08090a;
+  --foreground-secondary: #41474d;
+  --foreground-tertiary: #797c80;
+  --foreground-quaternary: #f4faff;
+  --foreground-light: #41474d;
+
+  --background-default: #f4faff;
+  --background-secondary: #a3b9cc;
+  --background-tertiary: #5c7d99;
+  --background-light: #ffffff;
+
+  --primary-default: #5dfdcb;
+  --primary-dark: #24b286;
+  --primary-light: #b2ffe7;
+
+  --error-default: #ef3e36;
+  --error-dark: #800600;
+  --error-light: #ffcecc;
+
+
+
     // Udith Theme colors
   --u-primary-color: #1f3962;
   --u-secondary-color: #4e4b84;
@@ -23,10 +46,36 @@ $vivid-sky-blue: #4cc9f0ff;
   // Navbar
   --u-navbar-background: var(--u-tertiary-color);
   --u-navbar-text: #ffffff;
+
+  // Background colors
+  --u-background-color : #e9e9e9;
+
+  // Background for card
+  --u-card-background: #ffffff;
+
+  // Text colors
+  --u-text-color: #1b0534d1;
+  --u-text-color-light: rgba(87, 11, 173, 0.555);
+
+  // --u-text-color-light: rgba(76, 202, 240, 0.582);
+
+ 
+  // Text title colors
+  --u-title-color: #560badff;
+  --u-subtitle-color: #3c2b63;
+
+  // Ruler color
+  --u-ruler-color: rgba(176, 180, 182, 0.849);
+
+
 }
 
 
 .main-side-padding {
     padding-left: 5%!important;
     padding-right: 5%!important;
+}
+
+.all-border-zero > .list-group-item {
+    border-width: 0!important;
 }

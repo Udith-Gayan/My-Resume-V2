@@ -5,11 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ThemeSwitchComponent } from './component-items/theme-switch/theme-switch.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SectionOneComponent } from './sections/section-one/section-one.component';
+import { SectionTwoComponent } from './sections/section-two/section-two.component';
+import { SectionThreeComponent } from './sections/section-three/section-three.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ThemeSwitchComponent
+    ThemeSwitchComponent,
+    SectionOneComponent,
+    SectionTwoComponent,
+    SectionThreeComponent
   ],
   imports: [
     BrowserModule,
