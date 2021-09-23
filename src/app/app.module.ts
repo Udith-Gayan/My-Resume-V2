@@ -8,6 +8,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SectionOneComponent } from './sections/section-one/section-one.component';
 import { SectionTwoComponent } from './sections/section-two/section-two.component';
 import { SectionThreeComponent } from './sections/section-three/section-three.component';
+import { SectionFourComponent } from './sections/section-four/section-four.component';
+import { SectionFiveComponent } from './sections/section-five/section-five.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { SectionThreeComponent } from './sections/section-three/section-three.co
     ThemeSwitchComponent,
     SectionOneComponent,
     SectionTwoComponent,
-    SectionThreeComponent
+    SectionThreeComponent,
+    SectionFourComponent,
+    SectionFiveComponent
   ],
   imports: [
     BrowserModule,
