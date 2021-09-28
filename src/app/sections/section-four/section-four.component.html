@@ -14,10 +14,10 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title float-start">{{p.title}}</h5> <a [href]="p.link" target="_blank" [hidden]="p.link?.length == 0"><fa-icon [icon]="faExternalLinkAlt" style="font-size: 14px;" class="themeIIcon ms-4"></fa-icon></a>
+                    <h5 class="card-title float-start" style="color: var(--u-subtitle-color);">{{p.title}}</h5> <a [href]="p.link" target="_blank" [hidden]="p.link?.length == 0"><fa-icon [icon]="faExternalLinkAlt" style="font-size: 14px;" class="themeIIcon ms-4"></fa-icon></a>
                     <div class="row" [hidden] = "p.link?.length != 0">&nbsp;</div>
-                    <p class="card-text text-justify mt-3">{{p.description}}</p>
-                    <p class="card-text text-justify lh-sm">Technologies :<span class="fst-italic">{{ p.technologies }}</span></p>
+                    <p class="card-text text-justify mt-3 u-text-color">{{p.description}}</p>
+                    <p class="card-text text-justify lh-sm u-text-color"><span class="fw-bold">Technologies</span> :<span class="fst-italic u-text-color">{{ p.technologies }}</span></p>
                 </div>
             </div>
         </div>

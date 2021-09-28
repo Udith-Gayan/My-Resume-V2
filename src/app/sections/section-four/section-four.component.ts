@@ -62,6 +62,13 @@ export class SectionFourComponent implements OnInit {
       technologies: "Angular 10, ASP.NET Core, Azure Cloud, MSSQL", 
       link: ""
     },
+    {
+      imgURL: "assets/img/prj_images/p5.png",
+      title: "Hoyamu Project",    
+      description: "This is one of my own projects. This app is being created with the intention of helping people to find lost items",  
+      technologies: "Ionic 5, ASP.NET Core, Firebase, Azure Web Apps", 
+      link: ""
+    },
   ]
 
 

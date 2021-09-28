@@ -46,6 +46,7 @@ export interface Theme {
 
       // Background for card
       "--u-card-background": "#ffffff",
+      "--u-card-2-background": "#ffffff",
 
       // Text color
       "--u-text-color" : "#1b0534d1",
@@ -103,6 +104,7 @@ export interface Theme {
 
       // Card background
       "--u-card-background": "var(--u-secondary-color)",
+      "--u-card-2-background": "#5953ba",
 
       // Text color
       "--u-text-color" : "#d4f5ff",
