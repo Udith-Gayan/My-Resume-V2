@@ -11,6 +11,9 @@ import { SectionThreeComponent } from './sections/section-three/section-three.co
 import { SectionFourComponent } from './sections/section-four/section-four.component';
 import { SectionFiveComponent } from './sections/section-five/section-five.component';
 
+import { NgxCarouselModule } from 'ngx-light-carousel';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +27,8 @@ import { SectionFiveComponent } from './sections/section-five/section-five.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgxCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
