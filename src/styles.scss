@@ -52,6 +52,7 @@ $vivid-sky-blue: #4cc9f0ff;
 
   // Background for card
   --u-card-background: #ffffff;
+  --u-card-2-background: #ffffff;
 
   // Text colors
   --u-text-color: #1b0534d1;
@@ -78,4 +79,12 @@ $vivid-sky-blue: #4cc9f0ff;
 
 .all-border-zero > .list-group-item {
     border-width: 0!important;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.u-hidden {
+  display: none;
 }

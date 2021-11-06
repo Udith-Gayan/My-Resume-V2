@@ -2,6 +2,10 @@
     background-color: var(--u-card-background);
 }
 
+.custom-card-2 {
+    background-color: var(--u-card-2-background);
+}
+
 .card-img-overlay > .custom-card-title {
     color: var(--u-primary-color);
 }
@@ -56,7 +60,3 @@ hr {
     text-decoration: none;
 }
 
-svg {
-    // fill: #560badff;
-    // color: #560badff!important;
-}

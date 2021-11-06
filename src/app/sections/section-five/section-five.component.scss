@@ -1,0 +1,98 @@
+.custom-carousal-inner {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.custom-carousel-control {
+    width: 8%;
+    background-color: black;
+    
+}
+
+
+::ng-deep .direction.left {
+
+    background: none!important;
+    background-image: none!important;
+    background-repeat: no-repeat!important;
+    
+    user-select: none!important;
+    position: absolute!important;
+    height: 100%!important;
+    cursor: pointer!important;
+    background-size: 50%!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    top: 0!important;
+    background-position: center center!important;
+
+    left: 2%!important;
+    
+}
+
+::ng-deep .direction.right {
+
+    background: none!important;
+    background-image: none!important;
+    background-repeat: no-repeat!important;
+    
+    user-select: none!important;
+    position: absolute!important;
+    height: 100%!important;
+    cursor: pointer!important;
+    background-size: 50%!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    top: 0!important;
+    background-position: center center!important;
+
+    right: 2%!important;
+    
+}
+
+
+.custom-click-area {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 30%;
+    background-color: rgba(244, 165, 96, 0);
+    width: 50%;
+}
+
+
+.ud-hover-zoom {
+    transition: transform 1s;
+    transform: scale(1);
+}
+
+.ud-hover-zoom:hover {
+    transition: transform 1s;
+    transform: scale(1.2);
+}
+
+
+::ng-deep .active .ball {
+    background: var(--u-text-color)!important;
+    color: rgb(236, 236, 236);
+    opacity: 1!important;
+}
+
+
+.ball {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--u-text-color-light);
+    border: 2px solid var(--u-text-color);
+    opacity: 0.5;
+}
